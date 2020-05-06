@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MAJID-PC\\AndroidStudioProjects\\AndroidBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
+            "outputFile": "C:\\Users\\Aida\\AndroidStudioProjects\\AndroidBoxHome\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-az\\values-az.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MAJID-PC\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\Aida\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MAJID-PC\\.gradle\\caches\\transforms-2\\files-2.1\\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\\core-1.0.1\\res\\values-az\\values-az.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "68",
-                        "startColumns": "4",
-                        "startOffsets": "5481",
-                        "endColumns": "100",
-                        "endOffsets": "5577"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MAJID-PC\\.gradle\\caches\\transforms-2\\files-2.1\\b2fdb91e5a141060c7ec3d56cd5ee3c5\\exoplayer-ui-2.10.8\\res\\values-az\\values-az.xml",
+                    "source": "C:\\Users\\Aida\\.gradle\\caches\\transforms-2\\files-2.1\\b2fdb91e5a141060c7ec3d56cd5ee3c5\\exoplayer-ui-2.10.8\\res\\values-az\\values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2820,2897,2978,3049,3114,3179,3254,3338,3426,3508,3579,3666,3750,3819,3885,3955,4016,4079,4144,4222,4293,4346,4404,4452,4513,4577,4649,4708,4771,4834,4894,4960,5024,5090,5142,5200,5272,5344",
                         "endColumns": "76,80,70,64,64,74,83,87,81,70,86,83,68,65,69,60,62,64,77,70,52,57,47,60,63,71,58,62,62,59,65,63,65,51,57,71,71,53",
                         "endOffsets": "2892,2973,3044,3109,3174,3249,3333,3421,3503,3574,3661,3745,3814,3880,3950,4011,4074,4139,4217,4288,4341,4399,4447,4508,4572,4644,4703,4766,4829,4889,4955,5019,5085,5137,5195,5267,5339,5393"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aida\\.gradle\\caches\\transforms-2\\files-2.1\\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\\core-1.0.1\\res\\values-az\\values-az.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "68",
+                        "startColumns": "4",
+                        "startOffsets": "5481",
+                        "endColumns": "100",
+                        "endOffsets": "5577"
                     }
                 }
             ]

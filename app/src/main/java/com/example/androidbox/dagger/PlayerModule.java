@@ -15,7 +15,7 @@ import com.google.android.exoplayer2.util.Util;
 import dagger.Module;
 import dagger.Provides;
 
-@Module(includes = {AndroidModule.class})
+@Module
 public class PlayerModule
 {
     @Provides
@@ -25,15 +25,15 @@ public class PlayerModule
     }
 
     @Provides
-    public SimpleExoPlayer getSimpleExoPlayer(Context context, DefaultTrackSelector trackSelector)
+    public SimpleExoPlayer getSimpleExoPlayer(ContextClass contextClass, DefaultTrackSelector trackSelector)
     {
-        return ExoPlayerFactory.newSimpleInstance(context,trackSelector);
+        return ExoPlayerFactory.newSimpleInstance(contextClass.context,trackSelector);
     }
 
     @Provides
-    public DataSource.Factory getDataSourceFactory(Context context)
+    public DataSource.Factory getDataSourceFactory(ContextClass contextClass)
     {
-        return new DefaultHttpDataSourceFactory(Util.getUserAgent(context,"exoplayer"));
+        return new DefaultHttpDataSourceFactory(Util.getUserAgent(contextClass.context,"exoplayer"));
     }
 
     @Provides

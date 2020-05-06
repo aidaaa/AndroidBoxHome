@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\MAJID-PC\\AndroidStudioProjects\\AndroidBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+            "outputFile": "C:\\Users\\Aida\\AndroidStudioProjects\\AndroidBoxHome\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\MAJID-PC\\.gradle\\caches\\transforms-2\\files-2.1\\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\\core-1.0.1\\res\\values-fi\\values-fi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "68",
-                        "startColumns": "4",
-                        "startOffsets": "5509",
-                        "endColumns": "100",
-                        "endOffsets": "5605"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\MAJID-PC\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\Aida\\.gradle\\caches\\transforms-2\\files-2.1\\697f71c0c12135256cbfe98df498a7e4\\appcompat-1.0.2\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\MAJID-PC\\.gradle\\caches\\transforms-2\\files-2.1\\b2fdb91e5a141060c7ec3d56cd5ee3c5\\exoplayer-ui-2.10.8\\res\\values-fi\\values-fi.xml",
+                    "source": "C:\\Users\\Aida\\.gradle\\caches\\transforms-2\\files-2.1\\b2fdb91e5a141060c7ec3d56cd5ee3c5\\exoplayer-ui-2.10.8\\res\\values-fi\\values-fi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2792,2873,2954,3029,3097,3162,3242,3330,3414,3500,3577,3670,3759,3824,3888,3953,4012,4074,4141,4218,4289,4342,4400,4448,4509,4577,4649,4718,4790,4857,4912,4977,5043,5109,5161,5222,5297,5372",
                         "endColumns": "80,80,74,67,64,79,87,83,85,76,92,88,64,63,64,58,61,66,76,70,52,57,47,60,67,71,68,71,66,54,64,65,65,51,60,74,74,56",
                         "endOffsets": "2868,2949,3024,3092,3157,3237,3325,3409,3495,3572,3665,3754,3819,3883,3948,4007,4069,4136,4213,4284,4337,4395,4443,4504,4572,4644,4713,4785,4852,4907,4972,5038,5104,5156,5217,5292,5367,5424"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Aida\\.gradle\\caches\\transforms-2\\files-2.1\\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\\core-1.0.1\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "68",
+                        "startColumns": "4",
+                        "startOffsets": "5509",
+                        "endColumns": "100",
+                        "endOffsets": "5605"
                     }
                 }
             ]

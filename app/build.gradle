@@ -25,6 +25,7 @@ android {
             {
                 enabled=true
             }
+    compileOptions.incremental = false
 }
 
 dependencies {

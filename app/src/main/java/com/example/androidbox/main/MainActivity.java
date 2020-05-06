@@ -13,6 +13,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
+import android.preference.PreferenceManager;
 import android.text.InputFilter;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -20,15 +21,15 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 import androidx.databinding.DataBindingUtil;
-
 import com.example.androidbox.BuildConfig;
 import com.example.androidbox.R;
 import com.example.androidbox.confg.ConfigActivity;
+import com.example.androidbox.dagger.DaggerPlayerComponent;
+import com.example.androidbox.dagger.PlayerComponent;
 import com.example.androidbox.dagger.app.App;
 import com.example.androidbox.databinding.ActivityMainBinding;
 import com.example.androidbox.xml.VersionXml;
@@ -41,7 +42,6 @@ import com.google.android.exoplayer2.source.ProgressiveMediaSource;
 import com.google.android.exoplayer2.trackselection.DefaultTrackSelector;
 import com.google.android.exoplayer2.ui.PlayerView;
 import com.google.android.exoplayer2.upstream.DataSource;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -52,9 +52,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import javax.inject.Inject;
-
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
@@ -95,10 +93,6 @@ public class MainActivity extends AppCompatActivity implements Observer<List<Arr
     MediaSource mediaSource = null;
     Uri uri;
     int ok = 0;
-    private DownloadManager dm;
-    boolean isDeleted;
-    DownloadManager manager;
-    long downloadId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,7 +102,13 @@ public class MainActivity extends AppCompatActivity implements Observer<List<Arr
         ViewModelMain viewModelMain = new ViewModelMain();
         binding.setMain(viewModelMain);
 
-        App.getApp().getDaggerComponent(this).getPlayer(this);
+       // App.getApp().getDaggerComponent(this).getPlayer(this);
+        PlayerComponent playerComponent= DaggerPlayerComponent.builder()
+                .context(this)
+                .build();
+
+        playerComponent.getPlayer(this);
+
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);

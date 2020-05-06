@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\MAJID-PC\\AndroidStudioProjects\\AndroidBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\MAJID-PC\\AndroidStudioProjects\\AndroidBox\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Aida\\AndroidStudioProjects\\AndroidBoxHome\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Aida\\AndroidStudioProjects\\AndroidBoxHome\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\MAJID-PC\\AndroidStudioProjects\\AndroidBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_config.xml",
-        "source": "C:\\Users\\MAJID-PC\\AndroidStudioProjects\\AndroidBox\\app\\src\\main\\res\\layout\\activity_config.xml"
+        "merged": "C:\\Users\\Aida\\AndroidStudioProjects\\AndroidBoxHome\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_config.xml",
+        "source": "C:\\Users\\Aida\\AndroidStudioProjects\\AndroidBoxHome\\app\\src\\main\\res\\layout\\activity_config.xml"
     }
 ]
